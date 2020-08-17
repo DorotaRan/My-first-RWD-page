@@ -5,33 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="desktop.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <nav>
-        <div class="container container-flex"> 
-            <a  href="#" class="nav-logo">moja firma</a>
-            <div class="nav-links">
-                <a href="#staffPage">o nas</a> 
+        
+        <div class="container container-nav">
+            <input type="checkbox" id="toggle"/>              
+            
+            <div class="nav-logo">
+                <a href="#">moja firma</a>
+            </div>
+
+            <div class="menu">
+                <a href="#staffPage">o nas</a>
                 <a href="#offers">oferta</a>
                 <a class="contact" href="#">kontakt</a>
             </div>
-        </div>       
+
+            <label for="toggle">
+                <i class="fas fa-bars" id="sign-one"></i>
+                <i class="fas fa-times" id="sign-two"></i>
+            </label>
+                
+        </div>
     </nav>
 
     <main>
         <section class="landing-page">
             <div class="landing-page-shadow">
                 <div class="container">
-                    <div class="landing-page-text">
+                    <div class="landing-page-text text-white">
                         <h1>
                             Nasza firma oferuje najwyższej jakości produkty
                         </h1>
                         <h2>Nie wierz nam na słowo - sprawdź</h2>
-                        <a class="btn-offer" href="#offers">oferta</a>
+                        <a class="btn-offer text-white" href="#offers">oferta</a>
                     </div>
                 </div>
             </div>
@@ -51,6 +66,7 @@
                     </p>
                 </div>
               </div>
+
               <div class="about-employee">
                 <div class="about-employee-pic pic-reverse"></div>
                 <div class="about-employee-desc">
@@ -65,7 +81,7 @@
             </div>
         </section>
         
-        <section class="offers" id="offers">
+        <section class="offers text-white" id="offers">
             <div class="container">
                 <h1>Czym zajmuje się nasza firma?</h1>
                 <div class="services">
@@ -106,7 +122,7 @@
     </main>
 
     <footer>
-        <div class="container container-flex">
+        <div class="container container-footer text-white">
             <h2> 
             Nazwa firmy - wszelkie prawa zastrzeżone, 2019
             </h2>
