@@ -15,7 +15,7 @@
         position: initial;
         display: flex;
         flex-direction: row;
-        width: 50%;
+        width: 40%;
         justify-content: space-between;
         text-align: center;
         background: transparent;
@@ -36,6 +36,14 @@
 
     .landing-page-text {
         width: 70%;
+    }
+
+    .landing-page h1 {
+        font-size: 36px;
+    }
+
+    .btn-offer {
+        width: 12%;
     }
 
     .about-employee {
@@ -72,8 +80,8 @@
     }
 
     .services-box {
-        width: 45%;
-        padding-bottom: 45%;
+        width: 47%;
+        padding-bottom: 47%;
         margin-right: 5%;
         margin-bottom: 5%;
     }
