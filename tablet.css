@@ -42,10 +42,6 @@
         font-size: 36px;
     }
 
-    .btn-offer {
-        width: 12%;
-    }
-
     .about-employee {
         display: flex;
         flex-direction: row;
